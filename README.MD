@@ -23,3 +23,5 @@ features.csv – berisi fitur tambahan seperti temperatur, CPI, dll.
 stores.csv – informasi ukuran dan jenis toko
 
 Deployment
+
+https://wallmart-forecast-wmjtf4m6sp66pxfh7tovu5.streamlit.app/
