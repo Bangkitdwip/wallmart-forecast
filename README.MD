@@ -1,27 +1,23 @@
-🛒 Walmart Sales Forecasting App
+# 📊 Walmart Sales Forecasting App
 
-Aplikasi web interaktif berbasis Streamlit untuk memprediksi penjualan mingguan Walmart berdasarkan data historis. Aplikasi ini memungkinkan pengguna memilih store, department, dan model prediktif seperti ARIMA, SARIMA, Random Forest, Linear Regression, atau XGBoost.
-
-📊 Fitur Utama
-
-Memilih Store dan Department untuk dianalisis
-
-Opsi pemodelan: ARIMA, SARIMA, Random Forest, Linear Regression, dan XGBoost
-
-Visualisasi tren historis, aktual, dan hasil forecast
-
-Tabel nilai penjualan mingguan hasil prediksi dan aktual
-
-🗂️ Struktur Dataset
-
-Dataset terdiri dari 3 file utama:
-
-train.csv – berisi data penjualan mingguan tiap toko dan departemen
-
-features.csv – berisi fitur tambahan seperti temperatur, CPI, dll.
-
-stores.csv – informasi ukuran dan jenis toko
-
-Deployment
-
+A Streamlit web application to forecast weekly sales of Walmart stores and departments using multiple models including SARIMA, ARIMA, Random Forest, Linear Regression, and XGBoost.
 https://wallmart-forecast-wmjtf4m6sp66pxfh7tovu5.streamlit.app/
+---
+
+## 🧰 Features
+
+- Select Walmart **Store** and **Department**
+- Choose forecasting model:  
+  `SARIMA`, `ARIMA`, `Random Forest`, `Linear Regression`, or `XGBoost`
+- Visualize historical vs forecasted weekly sales
+- Display tabular weekly sales forecasts with actual comparisons
+
+---
+
+## 📁 Dataset Overview
+
+This project uses three datasets:
+
+- `train.csv` – Weekly sales data by store and department
+- `features.csv` – External factors (Temperature, Fuel Price, CPI, etc.)
+- `stores.csv` – Store characteristics (Type and Size)
