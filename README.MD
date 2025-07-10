@@ -1,7 +1,7 @@
 # 📊 Walmart Sales Forecasting App
 
 A Streamlit web application to forecast weekly sales of Walmart stores and departments using multiple models including SARIMA, ARIMA, Random Forest, Linear Regression, and XGBoost.
-🔗 [Lihat Aplikasinya di Streamlit](https://wallmart-forecast-wmjtf4m6sp66pxfh7tovu5.streamlit.app/)
+🔗 [Lihat Aplikasinya di Streamlit](https://wallmart-forecast-ctvbcbkd39unnqibdbaqvb.streamlit.app/)
 ---
 
 ## 🧰 Features
