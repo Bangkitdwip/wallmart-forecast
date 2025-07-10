@@ -27,6 +27,7 @@ store = st.sidebar.selectbox("Select Store", sorted(df['Store'].unique()))
 dept = st.sidebar.selectbox("Select Department", sorted(df['Dept'].unique()))
 model_choice = st.sidebar.selectbox("Select Model", ['SARIMA', 'ARIMA'])
 
+st.title("Walmart Sales Forecast")
 if st.button("Start Forecast"):
     # Filter data
     df_filtered = df[(df['Store'] == store) & (df['Dept'] == dept)].sort_values('Date')
